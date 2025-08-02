@@ -1,6 +1,6 @@
 import random
 import time
-
+import vars
 
 x = random.randint(1,6)
 
@@ -17,7 +17,7 @@ input()
 end  = time.time()
 
 elapsed_time = round(end-start,2)
-if elapsed_time < 0.5:
+if elapsed_time < vars.min_speed:
     print('you are the fastest gun drawer in wild west!!!')
 else:
     print('bastardo kills you!')

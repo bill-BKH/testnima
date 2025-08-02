@@ -1,7 +1,7 @@
 import random
 import time
 import vars
-from art import bastardo
+from art import bastardo,revolver
 x = random.randint(1,6)
 
 print('you are in wild west')
@@ -13,6 +13,7 @@ print('he slowly reaches to his gun')
 
 time.sleep(random.randint(1,3))
 start = time.time()
+print(revolver)
 print('DRAW')
 input()
 end  = time.time()

@@ -1,11 +1,12 @@
 import random
 import time
 import vars
-
+from art import bastardo
 x = random.randint(1,6)
 
 print('you are in wild west')
 time.sleep(1)
+print(bastardo)
 print('you see bastardo!!!')
 time.sleep(1)
 print('he slowly reaches to his gun')

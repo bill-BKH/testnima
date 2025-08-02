@@ -17,7 +17,7 @@ input()
 end  = time.time()
 
 elapsed_time = round(end-start,2)
-if elapsed_time < vars.min_speed:
+if elapsed_time < vars.minimum_speed:
     print('you are the fastest gun drawer in wild west!!!')
 else:
     print('bastardo kills you!')

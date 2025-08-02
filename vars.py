@@ -1,1 +1,1 @@
-min_speed = 0.5
+minimum_speed = 0.4

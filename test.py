@@ -3,7 +3,7 @@ import time
 import vars
 from art import bastardo,revolver
 x = random.randint(1,6)
-health = 3
+health = 4
 while health >0: 
     print('you are in wild west')
     time.sleep(1)
